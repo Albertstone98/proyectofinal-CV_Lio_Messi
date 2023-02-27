@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    margin-top: 40px;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .section-header h2 {
+    margin-right: 10px;
+  }
+  
+  .section-content {
+    border-left: 2px solid #333;
+    padding-left: 20px;
+  }
+  
+  .section-content p:last-child, .section-content ul:last-child {
+    margin-bottom: 0;
+}
+
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+  background-color: #1489cc;
+}
+
+td {
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+.table-datos {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-datos td, .table-datos th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table-datos th {
+  font-weight: bold;
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-datos tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table-datos td:last-child {
+  text-align: center;
+}
+
+.table-datos .table-secondary{
+  background-color: #f7f7f7;
+}
+
+/*Tamaño img redes*/
+.table-datos .redes {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
